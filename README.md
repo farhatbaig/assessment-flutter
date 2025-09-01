@@ -1,17 +1,57 @@
-# my_app
 
-A new Flutter project.
+# Reward UI Flutter App
+
+This Flutter app demonstrates a beautiful single-screen UI for a reward unlock scenario, featuring:
+
+- 🎉 A reward message with animation
+- 🏷️ An eye-catching "Choose Brand" button
+- 💳 A modern, colorful list of mock credit card bills
+- 🌈 Clean, modular code with all mock data in `lib/mock_data.dart`
+
+## Features
+
+- No backend required — all data is mocked
+- Responsive, scrollable layout
+- Modern gradients, vibrant colors, and micro-interactions
+- Easy to customize and extend
+
+## Mock Data
+
+All mock bill data is in [`lib/mock_data.dart`](lib/mock_data.dart):
+
+```dart
+const List<Map<String, String>> mockBills = [
+	{
+		'amount': '420.99',
+		'date': '2025-08-28',
+		'status': 'Paid',
+	},
+	{
+		'amount': '89.20',
+		'date': '2025-08-20',
+		'status': 'Due',
+	},
+	{
+		'amount': '560.40',
+		'date': '2025-08-01',
+		'status': 'Overdue',
+	},
+];
+```
+
+## Screenshots
+
+<!-- Add screenshots here if available -->
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Install Flutter: https://docs.flutter.dev/get-started/install
+2. Run `flutter pub get`
+3. Run the app:
+	 ```sh
+	 flutter run
+	 ```
 
-A few resources to get you started if this is your first Flutter project:
+## Credits
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# assessment-flutter
+Created by farhatbaig for assessment-flutter.
